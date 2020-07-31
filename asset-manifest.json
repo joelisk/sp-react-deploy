@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/JosephLisk93/sp-react-deploy/static/css/main.3ef124bd.chunk.css",
+    "main.js": "/JosephLisk93/sp-react-deploy/static/js/main.9546e557.chunk.js",
+    "main.js.map": "/JosephLisk93/sp-react-deploy/static/js/main.9546e557.chunk.js.map",
+    "runtime-main.js": "/JosephLisk93/sp-react-deploy/static/js/runtime-main.7318da60.js",
+    "runtime-main.js.map": "/JosephLisk93/sp-react-deploy/static/js/runtime-main.7318da60.js.map",
+    "static/css/2.ed590494.chunk.css": "/JosephLisk93/sp-react-deploy/static/css/2.ed590494.chunk.css",
+    "static/js/2.4c43e694.chunk.js": "/JosephLisk93/sp-react-deploy/static/js/2.4c43e694.chunk.js",
+    "static/js/2.4c43e694.chunk.js.map": "/JosephLisk93/sp-react-deploy/static/js/2.4c43e694.chunk.js.map",
+    "index.html": "/JosephLisk93/sp-react-deploy/index.html",
+    "precache-manifest.00ce436b535a40567a4d21ff3ff59caf.js": "/JosephLisk93/sp-react-deploy/precache-manifest.00ce436b535a40567a4d21ff3ff59caf.js",
+    "service-worker.js": "/JosephLisk93/sp-react-deploy/service-worker.js",
+    "static/css/2.ed590494.chunk.css.map": "/JosephLisk93/sp-react-deploy/static/css/2.ed590494.chunk.css.map",
+    "static/css/main.3ef124bd.chunk.css.map": "/JosephLisk93/sp-react-deploy/static/css/main.3ef124bd.chunk.css.map",
+    "static/js/2.4c43e694.chunk.js.LICENSE.txt": "/JosephLisk93/sp-react-deploy/static/js/2.4c43e694.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7318da60.js",
+    "static/css/2.ed590494.chunk.css",
+    "static/js/2.4c43e694.chunk.js",
+    "static/css/main.3ef124bd.chunk.css",
+    "static/js/main.9546e557.chunk.js"
+  ]
+}
