@@ -41,7 +41,7 @@ class App extends React.Component {
             <span className="logo">MarketChart</span>
           </header>
         <main>
-          <Table data={this.state.data} startYear={this.state.startYear} endYear={this.state.endYear} />
+          <Table data={this.state.data.reverse()} startYear={this.state.startYear} endYear={this.state.endYear} />
         </main>
         </div>
       </div>
@@ -57,7 +57,7 @@ class Table extends React.Component {
       const rows = []; 
       const startYear = this.props.startYear; 
       const endYear = this.props.endYear; 
-      const data = this.props.data.reverse(); 
+      const data = this.props.data; 
 
       data.map((datum)=>{
         const totalReturn = parseFloat(datum.totalReturn,2)
