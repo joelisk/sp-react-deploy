@@ -23,6 +23,11 @@ class App extends React.Component {
       endYear: endYear
     }); 
   }
+  componentDidMount() {
+      this.setState({
+        data: this.state.data.reverse()
+    })
+  }
   render() {
     return(
       <div className="App">
@@ -57,7 +62,7 @@ class Table extends React.Component {
       const rows = []; 
       const startYear = this.props.startYear; 
       const endYear = this.props.endYear; 
-      const data = this.props.data.reverse(); 
+      const data = this.props.data; 
 
       data.map((datum)=>{
         const totalReturn = parseFloat(datum.totalReturn,2)
